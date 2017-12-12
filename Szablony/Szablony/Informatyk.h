@@ -3,7 +3,9 @@
 class Informatyk :
 	public Pracownik
 {
+	bool graWTibie;
 public:
+	void wypisz() override;
 	Informatyk();
 	~Informatyk();
 };
